@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <!--Remix icon-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+  <!--Swiper Slider CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+
+</head>
+
+<body>
+  <!--HERO HEADER & NAV-->
+  <header id="accueil">
+    <nav>
+      <div class="logo">
+        <a href="#">Adama KONE</a>
+      </div>
+      <ul class="menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#about">À propos de moi</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#realisations">Réalisations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="social_icon">
+        <a href="https://www.linkedin.com/in/adama-kone-5735932b9/" target="_blank">
+          <i class="ri-linkedin-fill"></i>
+        </a>
+        <a href="https://github.com/adamakone7" target="_blank">
+          <i class="ri-github-fill"></i>
+        </a>
+      </div>
+      <div class="bars">
+        <i class="ri-menu-2-line"></i>
+      </div>
+    </nav>
+    <div class="hero_content">
+      <h2>Géographe & Sigiste (SIG) 🌎</h2>
+      <h1>Salut😊, passionnez par les SIG ? <br>Je suis <span id="text"></span></h1>
+      <p>Je vous propose un aperçu de mes projets | Suivant mes compétences en Géophysique et SIG</p>
+    </div>
+  </header>
+  <!-- À PROPOS DE MOI -->
+  <section class="about" id="about">
+    <div class="about_content">
+        <h1>À propos de moi</h1>
+        <p>Doté d'environ 1 an d'expérience et passionné par les technologies de collecte, traitement ainsi que l'analyse des données géospatiales.
+          De plus, je maîtrise les outils en systèmes d'information géographique (SIG), télédétection, cartographie numérique et analyse spatiale.
+          Enfin, je sais gérer des projets SIG dans divers secteurs : environnement, urbanisme, agriculture, etc.</p>
+        <button class="compétences_btn">Mes compétences (cliquez)</button>
+    </div>
+    
+    <div class="about_bottom">
+        <div class="compétences_box">
+            <h2>PostgreSQL | PostGIS</h2>
+            <div class="percent"></div>
+        </div>
+        <div class="compétences_box">
+            <h2>ENVI | QGIS</h2>
+            <div class="percent"></div>
+        </div>
+        <div class="compétences_box">
+            <h2>QGIS | ArcGIS | ArcGIS Online</h2>
+            <div class="percent"></div>
+        </div>
+        <div class="compétences_box">
+            <h2>DAO | Adobe Illustrator</h2>
+            <div class="percent"></div>
+        </div>
+        <div class="compétences_box">
+            <h2>R Studio | Google Earth</h2>
+            <div class="percent"></div>
+        </div>
+        <div class="compétences_box">
+            <h2>En apprentissage : Python</h2>
+            <div class="percent"></div>
+        </div>
+    </div>
+</section>
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="headings">
+      <h1>Mes services</h1>
+      <p>Toujours en constant apprentissage, je suis également capable de travailler dans un environnement
+        multidisciplinaire et collaboratif. Je suis un géographe de base et passionné des SIG, capable de travailler tant dans
+        les domaine des SIG et de environnement que de l'urbanisme. J'aspire à poursuivre ma carrière de géomaticien, Sigiste
+        et mettre à profit mes connaissances et mes compétences au service du dynamisme de votre structure.</p>
+    </div>
+
+    <!-- services Cards -->
+    <div class="services_cards">
+      <!-- card 1 -->
+      <div class="services_card">
+        <i class="ri-macbook-line"></i>
+        <div class="services_card_det">
+          <h2>SGBDR</h2>
+          <p>Gestionnaire de bases de données SIG ||
+            Gestion des projets (mise en place de bases de données, enrichissement) ||
+            Administration SIG (PostgreSQL / PostGIS, Git)</p>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="services_card">
+        <i class="ri-flight-takeoff-line"></i>
+        <div class="services_card_det">
+          <h2>Télédétection & photogrammétrie</h2>
+          <p>Collecter des données géospatiales (vecteurs et images) et analyse à l’aide d’outils SIG ||
+            Traitement & Analyse d'images satellite ||
+            Réaliser des cartes thématiques</p>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="services_card">
+        <i class="ri-map-line"></i>
+        <div class="services_card_det">
+          <h2>Cartographie</h2>
+          <p>Cartographie numérique ||
+            Webmapping & StoryMaps ||
+          Développement Web SIG (HTML, CSS, Javascript, ArcGIS Online)</p>
+        </div>
+      </div>
+      <!-- card 4 -->
+      <div class="services_card">
+        <i class="ri-shape-line"></i>
+        <div class="services_card_det">
+          <h2>Analyse spatiale</h2>
+          <p>Comprenndre l'objectif du projet, Préparer les données ||
+            Choix des outils et techniques || Production de visualisations (cartes, dashboard...)
+          || Modélisation spatiale</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- MINI SECTION EMBAUCHEZ-MOI -->
+  <section class="embauchez-moi">
+      <button>Embauchez-Moi😉</button>
+    <h1>Je suis disponible immédiatement pour CDD | CDI</h1>
+  </section>
+  <!-- APERCU DE REALSATIONS -->
+  <section class="aperçu">
+    <div class="headings">
+      <h1>Esquisses de réalisations👇🏾</h1>
+      <p>Mes expériences sont riches de parcours diversifié dans divers structures tand dans des établissements publics que des entreprises
+        privées</p>
+    </div>
+    <div class="swiper testSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- slide 1 -->
+          <div class="test_slide">
+            <img src="images/imagekk.svg" alt="" class="quate_img">
+            <div class="image1_img">
+              <img src="images/Carte des pentes.png" alt="">
+            </div>
+            <p>Recueillir, compiler les données sur la topographie d'un site et implémenter ces données dans un catalogue SIG | pour
+              créer une carte topographie du site.</p>
+            <h2>Carte topographique</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <!-- slide 2 -->
+          <div class="test_slide">
+            <img src="images/imagekk.svg" alt="" class="quate_img">
+            <div class="image1_img">
+              <img src="images/Plan3D-Flux d'eau.jpg" alt="">
+            </div>
+            <p>Extraction des informations sur la topographie et la distribution des différent d'eaux (avec les ordres)
+              dans le cadre d'un projet personnel pour le suivi des risques d'innodation.</p>
+            <h2>Carte d'un réseau hydrographique</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <!-- slide 3 -->
+          <div class="test_slide">
+            <img src="images/imagekk.svg" alt="" class="quate_img">
+            <div class="image1_img">
+              <img src="images/Eco-pak.png" alt="">
+            </div>
+            <p>Carte de proposition d'aménagement d'un écoquartier dans la continuté des politiques de développement durable.</p>
+            <h2>MasterPlan d'une proposition d'aménagement</h2>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- slide 4 -->
+          <div class="test_slide">
+            <img src="images/imagekk.svg" alt="" class="quate_img">
+            <div class="image1_img">
+              <video src="images/Ndvi 2023.mp4" autoplay muted loop></video>
+            </div>
+            <p>Suivi de l'évolution de l'indice NDVI de parcelles en Limagne dans l'Auvergne. Carte réalisée en exploitation de données raster couplées 
+              à des données shaoe issu du RPG.</p>
+            <h2>NDVI d'un espace</h2>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- REALSATIONS -->
+  <section class="realisations" id="realisations">
+    <div class="headings">
+      <h1>Réalisations</h1>
+      <h2>Le Géographe géomaticien, au cœur du développement durable</h2>
+    </div>
+    <div class="category">
+      <button data-filter="all">Vue d'ensemble</button>
+      <button data-filter=".category-a">Aménagement</button>
+      <button data-filter=".category-b">Télédétection</button>
+      <button data-filter=".category-c">Occupation du sol</button>
+      <button data-filter=".category-d">Analyse spatiale</button>
+    </div>
+    <div class="realisation_images">
+      <div class="realisation_img realisation1 mix category-d">
+        <video src="images/Accidents jour & nuit.mp4" autoplay muted loop></video>
+      </div>
+      <div class="realisation_img realisation2 mix category-a">
+        <img src="images/ABIDJAN25.jpg" alt="">
+      </div>
+      <div class="realisation_img realisation3 mix category-d">
+        <img src="images/CIV_Pluie.jpg" alt="">
+      </div>
+      <div class="realisation_img realisation4 mix category-c">
+        <img src="images/2.png" alt="">
+      </div>
+      <div class="realisation_img realisation5 mix category-d">
+        <img src="images/Nou_1.png" alt="">
+      </div>
+      <div class="realisation_img realisation6 mix category-d">
+        <img src="images/Nou_3.png" alt="">
+      </div>
+      <div class="realisation_img realisation7 mix category-c">
+        <img src="images/Carte des pentes.png" alt="">
+      </div>
+      <div class="realisation_img realisation8 mix category-d">
+        <img src="images/KKJ.png" alt="">
+      </div>
+      <div class="realisation_img realisation9 mix category-c">
+        <img src="images/Carte des pentes2.png" alt="">
+      </div>
+      <div class="realisation_img realisation10 mix category-a">
+        <img src="images/Carte-Biodiversité.png" alt="">
+      </div>
+      <div class="realisation_img realisation11 mix category-c">
+        <img src="images/6.png" alt="">
+      </div>
+      <div class="realisation_img realisation12 mix category-b">
+        <img src="images/1991.png" alt="">
+      </div>
+      <div class="realisation_img realisation13 mix category-b">
+        <img src="images/2021.png" alt="">
+      </div>
+      <div class="realisation_img realisation14 mix category-d">
+        <img src="images/1.png" alt="">
+      </div>
+      <div class="realisation_img realisation15 mix category-d">
+        <img src="images/ATTIEN ELISEE.png" alt="">
+      </div>
+      <div class="realisation_img realisation16 mix category-d">
+        <img src="images/Daloa QsQi.png" alt="">
+      </div>
+      <div class="realisation_img realisation17 mix category-b">
+        <img src="images/Plan3D-Flux d'eau.jpg" alt="">
+      </div>
+      <div class="realisation_img realisation18 mix category-d">
+        <img src="images/KEKE.png" alt="">
+      </div>
+      <div class="realisation_img realisation19 mix category-b">
+        <img src="images/ZK new.png" alt="">
+      </div>
+      <div class="realisation_img realisation20 mix category-d">
+        <img src="images/REGION DE GONTOUGO.png" alt="">
+      </div>
+      <div class="realisation_img realisation21 mix category-b">
+        <video src="images/Ndvi 2023.mp4" autoplay muted loop></video>
+      </div>
+      <div class="realisation_img realisation22 mix category-d">
+        <img src="images/Attien Lobog1.png" alt="">
+      </div>
+      <div class="realisation_img realisation23 mix category-a">
+        <img src="images/Synthèse des Propositions.png" alt="">
+      </div>
+      <div class="realisation_img realisation24 mix category-d">
+        <img src="images/ZINZENOU.png" alt="">
+      </div>
+    </div>
+  </section>
+  
+  <!-- CONTACTS -->
+  <section class="contact" id="contact">
+    <div class="headings">
+      <h1>Contactez-moi</h1>
+      <p>Je suis disponible immédiatement et mobile dans toute la Côte d'Ivoire. Prompt à la découverte de nouveaux horizons et défits,
+        un esprit que j'aime.</p>
+    </div>
+    <div class="address_det">
+      <div class="address_box">
+        <i class="ri-phone-fill"></i>
+        <h2>Appelez moi</h2>
+        <p>+225 07 67 52 52 63 | 01 40 18 15 74</p>
+      </div>
+      <div class="address_box">
+        <i class="ri-home-heart-fill"></i>
+        <h2>Adresse</h2>
+        <p>Mobilité Côte d'Ivoire</p>
+      </div>
+      <div class="address_box">
+        <a href="mailto:bagnonadamkone@gmail.com">
+          <i class="ri-mail-send-line"></i>
+          <h2>Mail</h2>
+          <p>bagnonadamkone@gmail.com</p>
+        </a>  
+      </div>
+    </div>
+  </section>
+  <!-- SECTION FOOTER -->
+  <section class="footer">
+    <p>© Fait en 2025 Tous Droits. Auteur <span>ADAMA KONE</span></p>
+    <div class="footer_social">
+      <a href="https://www.linkedin.com/in/adama-kone-5735932b9/" target="_blank">
+        <i class="ri-linkedin-fill"></i>
+      </a>
+      <a href="https://github.com/adamakone7" target="_blank">
+        <i class="ri-github-fill"></i>
+      </a>
+    </div>
+
+  </section>
+  
+  <!--Mixutup Filter-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+  <!--Typed Js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+  <!--Swiper Slider- Js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  <script src="Scripts.js"></script>
+</body>
+</html>
